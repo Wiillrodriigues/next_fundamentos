@@ -15,6 +15,8 @@ export default function Home() {
                 <Navegador texto="JSX" destino="jsx"/>
                 <Navegador texto="Navegação " destino="/cliente/123"/>
                 <Navegador texto="Estado " destino="estado"/>
+                <Navegador texto="Integração " destino="integracao"/>
+                <Navegador texto="Conteúdo Estático " destino="estatico"/>
             </nav>
             
 
