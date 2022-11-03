@@ -1,7 +1,22 @@
+import Navegador from "../components/navegador";
+
 export default function Home() {
     return ( 
-        <div>
-            <h1> Primeiros Passos Com React</h1>
+        <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems:'center',
+            flexWrap: ' wrap',
+            height:'100vh',
+        }}>
+            <nav>
+                <Navegador texto="Estiloso" destino="/estiloso"/>
+                <Navegador texto="Teste" destino="teste"/>
+                <Navegador texto="JSX" destino="jsx"/>
+                <Navegador texto="Navegação " destino="/cliente/123"/>
+                <Navegador texto="Estado " destino="estado"/>
+            </nav>
+            
 
         </div>
 
